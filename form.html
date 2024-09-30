@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    h2{
+        text-align: center;
+        background-color: brown;
+    }
+    body{
+        background-color: cornflowerblue;
+    }
+    div{
+        padding-left: 80px;
+        padding-bottom: 30px;
+    }
+    body{
+        padding: 30px;
+        padding-top: 30px;
+    }
+    a{
+        padding: 50px;
+        margin: 50px;
+        text-decoration: none;
+    }
+</style>
+<body>
+            <a href="table.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="form.html">CONTACT</a>
+    <h2>FORM</h2>
+    <form action="/action_page.php">
+        <label for="name"> Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+      </form>
+      <form action="/action_page.php">
+        <label for="age"> Age:</label><br>
+        <input type="number" id="age" age="age"><br>
+      </form>
+      <form action="/action_page.php">
+        <label for="E-mail"> E-mail:</label><br>
+        <input type="email" id="E-mail" E-mail="E-mail"><br>
+      </form>
+      <form action="/action_page.php">
+        <label for="pwd"> Password:</label><br>
+        <input type="password" id="pwd" E-mail="Password"><br>
+      </form>
+      <form action="/action_page.php">
+        <label for="Ph number"> Ph number:</label><br>
+        <input type="text" id="Ph number" Ph number="Ph number"><br>
+      </form>
+      <form action="/action_page.php">
+        <label for="Address"> Address:</label><br>
+        <input type="address" id="Address" Address="Address"><br>
+      </form>
+
+      <p>Gender:</p>
+    <form>
+        <input type="radio" id="gen12" name="Gender" value="male">
+        <label for="gen12">Male</label><br>
+        <input type="radio" id="gen22" name="Gender" value="female">
+        <label for="gen22">Female</label><br>
+        <input type="radio" id="gen33" name="Gender" value="other">
+        <label for="gen33">Other</label>
+    </form> 
+
+    <p>Graduation:</p>
+    <form action="/action_page.php">
+        <input type="checkbox" id="graduated" name="graduated" value="degree">
+        <label for="graduated"> Graduated</label><br>
+        <input type="checkbox" id="ungraduated" name="ungraduated" value="degree">
+        <label for="ungraduated"> Ungraduated</label><br>
+    </form>
+    <div>
+    <form >
+    <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
